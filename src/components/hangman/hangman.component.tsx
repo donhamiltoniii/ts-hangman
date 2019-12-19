@@ -1,14 +1,14 @@
 import React from "react";
 
-import { HangmanProps } from "../types";
-import "./Hangman.css";
-import img0 from "../assets/img/0.jpg";
-import img1 from "../assets/img/1.jpg";
-import img2 from "../assets/img/2.jpg";
-import img3 from "../assets/img/3.jpg";
-import img4 from "../assets/img/4.jpg";
-import img5 from "../assets/img/5.jpg";
-import img6 from "../assets/img/0.jpg";
+import { HangmanProps } from "../../types";
+import "./hangman.styles.scss";
+import img0 from "../../assets/img/0.jpg";
+import img1 from "../../assets/img/1.jpg";
+import img2 from "../../assets/img/2.jpg";
+import img3 from "../../assets/img/3.jpg";
+import img4 from "../../assets/img/4.jpg";
+import img5 from "../../assets/img/5.jpg";
+import img6 from "../../assets/img/6.jpg";
 
 const Hangman: React.FC<HangmanProps> = ({
   answer,

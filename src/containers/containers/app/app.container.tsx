@@ -1,9 +1,9 @@
 import React from "react";
 
-import Hangman from "./components/Hangman";
+import Hangman from "../../../components/hangman/hangman.component";
 
-import "./App.css";
-import { randomWord } from "./words";
+import "./app.styles.scss";
+import { randomWord } from "../../../words";
 
 const App = () => (
   <div className="App">
